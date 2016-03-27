@@ -1,0 +1,47 @@
+{
+  "name": "simple-data-api",
+  "version": "1.0.0",
+  "description": "Provides basic storage for small datasets.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "start": "node index.js"
+  },
+  "browser": {
+    "request": "xhr"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/editdata/simple-data-api.git"
+  },
+  "keywords": [
+    "data",
+    "csv",
+    "json",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/editdata/simple-data-api/issues"
+  },
+  "homepage": "https://github.com/editdata/simple-data-api#readme",
+  "devDependencies": {
+    "standard": "^6.0.8",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "JSONStream": "^1.1.1",
+    "body": "^5.1.0",
+    "bole": "^2.0.0",
+    "garnish": "^5.1.0",
+    "level": "^1.4.0",
+    "level-model": "^2.0.1",
+    "match-routes": "^2.0.0",
+    "request": "^2.69.0",
+    "response": "^0.18.0",
+    "xhr": "^2.2.0",
+    "xtend": "^4.0.1"
+  }
+}
